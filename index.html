@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BESTLAND'16</title>
+</head>
+<style type="text/css">
+	body{
+		margin: 0;
+	}
+	.landing{
+		position: relative;
+		height: 100vh;
+		width: 100%;
+		overflow: scroll;
+	}
+	.landing::-webkit-scrollbar {
+    	width: .3rem;
+	}
+
+	.landing::-webkit-scrollbar-track {
+	    display: none;
+	}
+
+	.landing::-webkit-scrollbar-thumb {
+	    background-color: darkgrey;
+	    border-radius: 20px;
+	}
+	.collage{
+		height: 2000px;
+		width: 2000px;
+		background: url("https://res.cloudinary.com/ds5l1k3bl/image/upload/v1633646888/collage_olmyqw.png");
+		background-color: #EFEDE1;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.collage-overlay{
+		height: 100%;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.5);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.collage-overlay .text{
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%, -60%);
+		color: #fff;
+	}
+	.collage-overlay .text h1{
+		font-size: 100px;
+		margin: 0;
+	}
+	.collage-overlay .text p{
+		font-size: 30px;
+		text-align: center;
+		margin: 0;
+	}
+
+	@media screen and (min-width: 1000px){
+		.collage{
+			height: 1350px;
+			width: 1350px;
+		}
+		.individuals{
+			background-color: #DDDDDD;
+			height: 500px;
+			width: 100%;
+		}
+	}
+
+</style>
+<body>
+	<section class="landing">
+		<div class="collage">
+			<div class="collage-overlay">
+				<div class="text">
+					<h1>BESTLAND'16</h1>
+					<p>we are not just past classmates, we are family</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="individuals">
+		hi
+	</section>
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>
